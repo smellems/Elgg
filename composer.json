@@ -8,10 +8,6 @@
     "type": "project",
     "require": {
         "php": "~5.4",
-        "ext-mysql": "*",
-        "ext-gd": "*",
-        "ext-json": "*",
-        "ext-xml": "*",
         "symfony/http-foundation": "~2.6",
         "mrclay/minify": "~2.0",
         "knplabs/gaufrette": "~0.1.0",
