@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ff0b6ae236bcba0219e14036136cc3f1",
-    "content-hash": "c4d99ff7cf38795d3ff3e0135c3b9390",
+    "hash": "a7697ea8fc893731f33dad1a991e0ec6",
+    "content-hash": "49a2f10eaa26b19c90768d6a8d9516eb",
     "packages": [
         {
             "name": "au/au_subgroups",
@@ -1911,6 +1911,30 @@
             "time": "2017-02-08 16:26:47"
         },
         {
+            "name": "smellems/wet4",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smellems/wet4.git",
+                "reference": "cf7fe5ad62ad19bb153424aff9114c8cf41007ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smellems/wet4/zipball/cf7fe5ad62ad19bb153424aff9114c8cf41007ed",
+                "reference": "cf7fe5ad62ad19bb153424aff9114c8cf41007ed",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2016-11-10 15:30:52"
+        },
+        {
             "name": "symfony/http-foundation",
             "version": "v2.8.17",
             "source": {
@@ -3614,6 +3638,7 @@
     "stability-flags": {
         "roave/security-advisories": 20,
         "elgg/mentions": 20,
+        "smellems/wet4": 20,
         "elgg/sniffs": 20
     },
     "prefer-stable": true,

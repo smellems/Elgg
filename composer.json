@@ -40,7 +40,8 @@
         "elgg/mentions": "dev-master",
         "iionly/tidypics": "^2.0",
         "iionly/event_calendar": "^2.0",
-        "iionly/unvalidatedemailchange": "^1.0"
+        "iionly/unvalidatedemailchange": "^1.0",
+        "smellems/wet4": "dev-master"
     },
     "scripts": {
         "lint": [
