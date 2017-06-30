@@ -8,10 +8,6 @@
     "type": "project",
     "require": {
         "php": ">=5.6",
-        "ext-pdo": "*",
-        "ext-gd": "*",
-        "ext-json": "*",
-        "ext-xml": "*",
         "doctrine/dbal": "~2.5",
         "symfony/http-foundation": "~2.6",
         "mrclay/minify": "~2.0",
@@ -31,10 +27,22 @@
         "michelf/php-markdown": "^1.5.0",
         "misd/linkify": "~1.1.2",
         "league/flysystem-memory": "^1.0",
-        "imagine/imagine": "^0.6.3"
+        "imagine/imagine": "^0.6.3",
+        "au/au_subgroups": "^2.0",
+        "beck24/embed_extender": "^1.0",
+        "coldtrick/blog_tools": "^v6.0",
+        "coldtrick/file_tools": "^v2.0",
+        "coldtrick/friend_request": "^v5.0",
+        "coldtrick/group_tools": "^v8.0",
+        "coldtrick/thewire_tools": "^v5.0",
+        "coldtrick/translation_editor": "^v5.0",
+        "coldtrick/widget_manager": "^v7.0",
+        "elgg/mentions": "dev-master",
+        "iionly/tidypics": "^2.0",
+        "iionly/event_calendar": "^2.0",
+        "iionly/unvalidatedemailchange": "^1.0"
     },
     "scripts": {
-        "pre-install-cmd": "php .scripts/check_global_requirements.php",
         "lint": [
             "phpcs --standard=vendor/elgg/sniffs/elgg.xml --warning-severity=0 --tab-width=4 --ignore=*/tests/*,*/upgrades/*,*/deprecated* engine/classes engine/lib",
             "composer validate"

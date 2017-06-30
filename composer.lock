@@ -4,8 +4,69 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "26ec856aed612527df79243a5e798312",
+    "hash": "ff0b6ae236bcba0219e14036136cc3f1",
+    "content-hash": "c4d99ff7cf38795d3ff3e0135c3b9390",
     "packages": [
+        {
+            "name": "au/au_subgroups",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AU-Landing-Project/au_subgroups.git",
+                "reference": "914c61979a467252b0822437575a0a8d2f43b83d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AU-Landing-Project/au_subgroups/zipball/914c61979a467252b0822437575a0a8d2f43b83d",
+                "reference": "914c61979a467252b0822437575a0a8d2f43b83d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Beckett"
+                }
+            ],
+            "description": "Allows creation of groups within groups",
+            "homepage": "https://github.com/AU-Landing-Project/au_subgroups",
+            "keywords": [
+                "elgg",
+                "plugin",
+                "subgroups"
+            ],
+            "time": "2016-12-06 09:05:34"
+        },
+        {
+            "name": "beck24/embed_extender",
+            "version": "1.8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beck24/embed_extender.git",
+                "reference": "adda8da9a7816ab2e58a79eed051855832e1329e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beck24/embed_extender/zipball/adda8da9a7816ab2e58a79eed051855832e1329e",
+                "reference": "adda8da9a7816ab2e58a79eed051855832e1329e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2016-01-14 23:34:54"
+        },
         {
             "name": "bower-asset/jquery",
             "version": "2.2.4",
@@ -181,17 +242,268 @@
             ]
         },
         {
-            "name": "composer/installers",
-            "version": "v1.2.0",
+            "name": "coldtrick/blog_tools",
+            "version": "v6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/composer/installers.git",
-                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
+                "url": "https://github.com/ColdTrick/blog_tools.git",
+                "reference": "ad1167612708221c1b31a9dd871dc3eab27b3c7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
-                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
+                "url": "https://api.github.com/repos/ColdTrick/blog_tools/zipball/ad1167612708221c1b31a9dd871dc3eab27b3c7e",
+                "reference": "ad1167612708221c1b31a9dd871dc3eab27b3c7e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.2"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Offers additional functionality for Blogs",
+            "keywords": [
+                "content",
+                "elgg",
+                "plugin"
+            ],
+            "time": "2016-11-18 13:02:13"
+        },
+        {
+            "name": "coldtrick/file_tools",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/file_tools.git",
+                "reference": "880ab2c4dd424261adc3b382390cc16a0fa7df5a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/file_tools/zipball/880ab2c4dd424261adc3b382390cc16a0fa7df5a",
+                "reference": "880ab2c4dd424261adc3b382390cc16a0fa7df5a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Extend the functionality of the core file plugin",
+            "homepage": "https://community.elgg.org/plugins/874513",
+            "keywords": [
+                "elgg",
+                "plugin",
+                "tools"
+            ],
+            "time": "2015-07-08 09:57:35"
+        },
+        {
+            "name": "coldtrick/friend_request",
+            "version": "v5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/friend_request.git",
+                "reference": "369f9ae2f1d55ade3716623cfb716adec996a6cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/friend_request/zipball/369f9ae2f1d55ade3716623cfb716adec996a6cf",
+                "reference": "369f9ae2f1d55ade3716623cfb716adec996a6cf",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Let users confirm friend requests. Make friends like on Facebook or LinkedIn",
+            "keywords": [
+                "elgg",
+                "friends",
+                "plugin"
+            ],
+            "time": "2016-09-15 14:18:24"
+        },
+        {
+            "name": "coldtrick/group_tools",
+            "version": "v8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/group_tools.git",
+                "reference": "9e2b3876988b5c159d6140f6d0a4edd88e75edff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/9e2b3876988b5c159d6140f6d0a4edd88e75edff",
+                "reference": "9e2b3876988b5c159d6140f6d0a4edd88e75edff",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.2"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Combines different group additions into one plugin",
+            "keywords": [
+                "elgg",
+                "groups",
+                "plugin"
+            ],
+            "time": "2016-10-06 13:10:07"
+        },
+        {
+            "name": "coldtrick/thewire_tools",
+            "version": "v5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/thewire_tools.git",
+                "reference": "fca27252a7dff4c82a00a794f5247527805cea7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/thewire_tools/zipball/fca27252a7dff4c82a00a794f5247527805cea7e",
+                "reference": "fca27252a7dff4c82a00a794f5247527805cea7e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Extend the functionality of The Wire",
+            "keywords": [
+                "elgg",
+                "plugin"
+            ],
+            "time": "2016-09-01 12:09:55"
+        },
+        {
+            "name": "coldtrick/translation_editor",
+            "version": "v5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/translation_editor.git",
+                "reference": "a713fd18e02daa84205f12bf4868de6a03644a39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/a713fd18e02daa84205f12bf4868de6a03644a39",
+                "reference": "a713fd18e02daa84205f12bf4868de6a03644a39",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.0"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Provide an easy way to edit translations",
+            "keywords": [
+                "elgg",
+                "i18n",
+                "plugin"
+            ],
+            "time": "2016-10-06 13:17:01"
+        },
+        {
+            "name": "coldtrick/widget_manager",
+            "version": "v7.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/widget_manager.git",
+                "reference": "52b3f1240fea3391f5c4ce71ef53268db1386610"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/52b3f1240fea3391f5c4ce71ef53268db1386610",
+                "reference": "52b3f1240fea3391f5c4ce71ef53268db1386610",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.1"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Manage your widgets",
+            "keywords": [
+                "elgg",
+                "plugin",
+                "widgets"
+            ],
+            "time": "2016-10-27 15:18:32"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
                 "shasum": ""
             },
             "require": {
@@ -233,12 +545,16 @@
             "keywords": [
                 "Craft",
                 "Dolibarr",
+                "Eliasis",
                 "Hurad",
                 "ImageCMS",
+                "Kanboard",
                 "MODX Evo",
                 "Mautic",
+                "Maya",
                 "OXID",
                 "Plentymarkets",
+                "Porto",
                 "RadPHP",
                 "SMF",
                 "Thelia",
@@ -261,9 +577,11 @@
                 "fuelphp",
                 "grav",
                 "installer",
+                "itop",
                 "joomla",
                 "kohana",
                 "laravel",
+                "lavalite",
                 "lithium",
                 "magento",
                 "mako",
@@ -278,6 +596,7 @@
                 "roundcube",
                 "shopware",
                 "silverstripe",
+                "sydes",
                 "symfony",
                 "typo3",
                 "wordpress",
@@ -285,7 +604,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13T20:53:52+00:00"
+            "time": "2017-04-24 06:37:16"
         },
         {
             "name": "container-interop/container-interop",
@@ -312,7 +631,7 @@
                 "MIT"
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "time": "2014-12-30T15:22:37+00:00"
+            "time": "2014-12-30 15:22:37"
         },
         {
             "name": "doctrine/annotations",
@@ -380,7 +699,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2016-12-30T15:59:45+00:00"
+            "time": "2016-12-30 15:59:45"
         },
         {
             "name": "doctrine/cache",
@@ -450,7 +769,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-10-29T11:16:17+00:00"
+            "time": "2016-10-29 11:16:17"
         },
         {
             "name": "doctrine/collections",
@@ -517,7 +836,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2017-01-03T10:49:41+00:00"
+            "time": "2017-01-03 10:49:41"
         },
         {
             "name": "doctrine/common",
@@ -590,7 +909,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2017-01-13T14:02:13+00:00"
+            "time": "2017-01-13 14:02:13"
         },
         {
             "name": "doctrine/dbal",
@@ -661,7 +980,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-02-08T12:53:47+00:00"
+            "time": "2017-02-08 12:53:47"
         },
         {
             "name": "doctrine/inflector",
@@ -728,7 +1047,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06T14:35:42+00:00"
+            "time": "2015-11-06 14:35:42"
         },
         {
             "name": "doctrine/lexer",
@@ -782,7 +1101,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09T13:34:57+00:00"
+            "time": "2014-09-09 13:34:57"
         },
         {
             "name": "elgg/data_views",
@@ -811,7 +1130,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-02-22T15:52:06+00:00"
+            "time": "2016-02-22 15:52:06"
         },
         {
             "name": "elgg/login_as",
@@ -846,7 +1165,31 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-09-03T12:18:17+00:00"
+            "time": "2015-09-03 12:18:17"
+        },
+        {
+            "name": "elgg/mentions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Elgg/mentions.git",
+                "reference": "53d08418f64d02eb1f7dedc4aceaa0293866fb46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Elgg/mentions/zipball/53d08418f64d02eb1f7dedc4aceaa0293866fb46",
+                "reference": "53d08418f64d02eb1f7dedc4aceaa0293866fb46",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2016-07-17 19:21:26"
         },
         {
             "name": "fortawesome/font-awesome",
@@ -894,7 +1237,118 @@
                 "font",
                 "icon"
             ],
-            "time": "2016-10-24T15:52:54+00:00"
+            "time": "2016-10-24 15:52:54"
+        },
+        {
+            "name": "iionly/event_calendar",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iionly/event_calendar.git",
+                "reference": "b59028ada0ea6d12a852ec9ff95a5e7caf6dea27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iionly/event_calendar/zipball/b59028ada0ea6d12a852ec9ff95a5e7caf6dea27",
+                "reference": "b59028ada0ea6d12a852ec9ff95a5e7caf6dea27",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "iionly",
+                    "homepage": "https://github.com/iionly",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds configurable group and/or site-wide event calendars.",
+            "homepage": "https://github.com/iionly/event_calendar",
+            "keywords": [
+                "elgg",
+                "plugin"
+            ],
+            "time": "2015-12-12 20:59:24"
+        },
+        {
+            "name": "iionly/tidypics",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iionly/tidypics.git",
+                "reference": "c53c17b6cd9428a5160146bfe2c0c26bc63f3bfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iionly/tidypics/zipball/c53c17b6cd9428a5160146bfe2c0c26bc63f3bfb",
+                "reference": "c53c17b6cd9428a5160146bfe2c0c26bc63f3bfb",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "iionly",
+                    "homepage": "https://github.com/iionly",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tidypics plugin provides a photo gallery with albums, tagging, and a slideshow.",
+            "homepage": "https://github.com/iionly/tidypics",
+            "keywords": [
+                "elgg",
+                "plugin"
+            ],
+            "time": "2017-01-08 20:08:04"
+        },
+        {
+            "name": "iionly/unvalidatedemailchange",
+            "version": "1.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iionly/unvalidatedemailchange.git",
+                "reference": "a59ce4a79c69f4753330aabc75d1f48eb4b342a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iionly/unvalidatedemailchange/zipball/a59ce4a79c69f4753330aabc75d1f48eb4b342a9",
+                "reference": "a59ce4a79c69f4753330aabc75d1f48eb4b342a9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "iionly",
+                    "homepage": "https://github.com/iionly",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allows to change the email address of unvalidated users.",
+            "homepage": "https://github.com/iionly/unvalidatedemailchange",
+            "keywords": [
+                "elgg",
+                "plugin"
+            ],
+            "time": "2015-09-19 19:52:58"
         },
         {
             "name": "imagine/imagine",
@@ -951,7 +1405,7 @@
                 "image manipulation",
                 "image processing"
             ],
-            "time": "2015-09-19T16:54:05+00:00"
+            "time": "2015-09-19 16:54:05"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -993,7 +1447,7 @@
                 "hashing",
                 "password"
             ],
-            "time": "2014-11-20T16:49:30+00:00"
+            "time": "2014-11-20 16:49:30"
         },
         {
             "name": "league/flysystem",
@@ -1076,7 +1530,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-02-09T11:33:58+00:00"
+            "time": "2017-02-09 11:33:58"
         },
         {
             "name": "league/flysystem-memory",
@@ -1127,7 +1581,7 @@
                 "adapter",
                 "memory"
             ],
-            "time": "2016-06-04T03:57:11+00:00"
+            "time": "2016-06-04 03:57:11"
         },
         {
             "name": "michelf/php-markdown",
@@ -1178,7 +1632,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2016-10-29T18:58:20+00:00"
+            "time": "2016-10-29 18:58:20"
         },
         {
             "name": "misd/linkify",
@@ -1229,7 +1683,7 @@
                 "link",
                 "url"
             ],
-            "time": "2014-05-12T11:52:18+00:00"
+            "time": "2014-05-12 11:52:18"
         },
         {
             "name": "mrclay/minify",
@@ -1274,7 +1728,7 @@
             ],
             "description": "Minify is a PHP5 app that helps you follow several rules for client-side performance. It combines multiple CSS or Javascript files, removes unnecessary whitespace and comments, and serves them with gzip encoding and optimal client-side cache headers",
             "homepage": "http://code.google.com/p/minify/",
-            "time": "2016-03-08T11:49:57+00:00"
+            "time": "2016-03-08 11:49:57"
         },
         {
             "name": "psr/cache",
@@ -1320,7 +1774,7 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-08-06T20:24:11+00:00"
+            "time": "2016-08-06 20:24:11"
         },
         {
             "name": "roave/security-advisories",
@@ -1454,7 +1908,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2017-02-08T16:26:47+00:00"
+            "time": "2017-02-08 16:26:47"
         },
         {
             "name": "symfony/http-foundation",
@@ -1509,7 +1963,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-02T13:38:20+00:00"
+            "time": "2017-02-02 13:38:20"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1568,7 +2022,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-php54",
@@ -1626,7 +2080,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-php55",
@@ -1682,7 +2136,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "tedivm/stash",
@@ -1742,7 +2196,7 @@
                 "redis",
                 "sessions"
             ],
-            "time": "2016-02-10T22:23:16+00:00"
+            "time": "2016-02-10 22:23:16"
         },
         {
             "name": "zendframework/zend-loader",
@@ -1786,7 +2240,7 @@
                 "loader",
                 "zf2"
             ],
-            "time": "2015-06-03T14:05:47+00:00"
+            "time": "2015-06-03 14:05:47"
         },
         {
             "name": "zendframework/zend-mail",
@@ -1846,7 +2300,7 @@
                 "mail",
                 "zf2"
             ],
-            "time": "2016-12-19T22:46:35+00:00"
+            "time": "2016-12-19 22:46:35"
         },
         {
             "name": "zendframework/zend-mime",
@@ -1895,7 +2349,7 @@
                 "mime",
                 "zf2"
             ],
-            "time": "2017-01-16T16:43:38+00:00"
+            "time": "2017-01-16 16:43:38"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -1940,7 +2394,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-09-13T14:38:50+00:00"
+            "time": "2016-09-13 14:38:50"
         },
         {
             "name": "zendframework/zend-validator",
@@ -2011,7 +2465,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2017-01-29T17:24:24+00:00"
+            "time": "2017-01-29 17:24:24"
         }
     ],
     "packages-dev": [
@@ -2067,7 +2521,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14T21:17:01+00:00"
+            "time": "2015-06-14 21:17:01"
         },
         {
             "name": "elgg/sniffs",
@@ -2143,7 +2597,7 @@
                     "email": "mike.vanriel@naenius.com"
                 }
             ],
-            "time": "2015-02-03T12:10:50+00:00"
+            "time": "2015-02-03 12:10:50"
         },
         {
             "name": "phpspec/prophecy",
@@ -2206,7 +2660,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2016-11-21T14:58:47+00:00"
+            "time": "2016-11-21 14:58:47"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2268,7 +2722,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-06T15:47:00+00:00"
+            "time": "2015-10-06 15:47:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -2315,7 +2769,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03T07:40:28+00:00"
+            "time": "2016-10-03 07:40:28"
         },
         {
             "name": "phpunit/php-text-template",
@@ -2356,7 +2810,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21T13:50:34+00:00"
+            "time": "2015-06-21 13:50:34"
         },
         {
             "name": "phpunit/php-timer",
@@ -2400,7 +2854,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2016-05-12T18:03:57+00:00"
+            "time": "2016-05-12 18:03:57"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -2449,7 +2903,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2016-11-15T14:06:22+00:00"
+            "time": "2016-11-15 14:06:22"
         },
         {
             "name": "phpunit/phpunit",
@@ -2521,7 +2975,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-06T05:18:07+00:00"
+            "time": "2017-02-06 05:18:07"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2577,7 +3031,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-10-02T06:51:40+00:00"
+            "time": "2015-10-02 06:51:40"
         },
         {
             "name": "sebastian/comparator",
@@ -2641,7 +3095,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-01-29T09:50:25+00:00"
+            "time": "2017-01-29 09:50:25"
         },
         {
             "name": "sebastian/diff",
@@ -2693,7 +3147,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2015-12-08T07:14:41+00:00"
+            "time": "2015-12-08 07:14:41"
         },
         {
             "name": "sebastian/environment",
@@ -2743,7 +3197,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-08-18T05:49:44+00:00"
+            "time": "2016-08-18 05:49:44"
         },
         {
             "name": "sebastian/exporter",
@@ -2810,7 +3264,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2016-06-17T09:04:28+00:00"
+            "time": "2016-06-17 09:04:28"
         },
         {
             "name": "sebastian/global-state",
@@ -2861,7 +3315,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2015-10-12T03:26:01+00:00"
+            "time": "2015-10-12 03:26:01"
         },
         {
             "name": "sebastian/recursion-context",
@@ -2914,7 +3368,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2015-11-11T19:50:13+00:00"
+            "time": "2015-11-11 19:50:13"
         },
         {
             "name": "sebastian/version",
@@ -2949,7 +3403,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2015-06-21T13:59:46+00:00"
+            "time": "2015-06-21 13:59:46"
         },
         {
             "name": "simpletest/simpletest",
@@ -3022,7 +3476,7 @@
                 "testing",
                 "unit-test"
             ],
-            "time": "2015-09-21T18:19:52+00:00"
+            "time": "2015-09-21 18:19:52"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -3097,7 +3551,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2014-12-04T22:32:15+00:00"
+            "time": "2014-12-04 22:32:15"
         },
         {
             "name": "symfony/yaml",
@@ -3152,23 +3606,20 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21T17:06:35+00:00"
+            "time": "2017-01-21 17:06:35"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "roave/security-advisories": 20,
+        "elgg/mentions": 20,
         "elgg/sniffs": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6",
-        "ext-pdo": "*",
-        "ext-gd": "*",
-        "ext-json": "*",
-        "ext-xml": "*"
+        "php": ">=5.6"
     },
     "platform-dev": []
 }
